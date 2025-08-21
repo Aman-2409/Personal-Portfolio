@@ -1,0 +1,106 @@
+/* ===== Global Styles ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+header, section, footer {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* ===== Header Section ===== */
+header {
+  background: #0077cc;
+  color: white;
+  padding: 60px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* ===== About Section ===== */
+#about img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+#about p {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* ===== Skills Section ===== */
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  display: inline-block;
+  background: #0077cc;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/* ===== Projects Section ===== */
+.project {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* ===== Resume Section ===== */
+#resume a {
+  display: inline-block;
+  background: #0077cc;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+/* ===== Contact Section ===== */
+#contact p {
+  margin: 5px 0;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #333;
+  color: white;
+  padding: 20px;
+  font-size: 0.9rem;
+}
